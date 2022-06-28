@@ -1,0 +1,13 @@
+var wordsModule = (function () {
+  var words = [
+    "Jim Carrey , in full James Eugene Carrey, (born January 17, 1962, New Market, Ontario, Canada), Canadian American comedian who established himself as a leading comedic actor with a series of over-the-top performances and who won plaudits for his more-serious portrayals as his career progressed.Jim Carrey , in full James Eugene Carrey, (born January 17, 1962, New Market, Ontario, Canada), Canadian American comedian who established himself as a leading comedic actor with a series of over-the-top performances and who won plaudits for his more-serious portrayals as his career progressed.",
+    "Carrey grew up in and around Toronto. At age eight he began making faces before a mirror and discovered a talent for doing impressions. After leaving school in 1978 to help support his family, Carrey worked for two years as a janitor in a factory. He made his professional debut as a stand-up comedian in a Toronto club at age 15 and by 1979 he was able to make a living as a comedian. He wrote most of his own material as an opening act for such comics as Buddy Hackett and Rodney Dangerfield. Known for his racing energy level and frenetic improvisation, he had a comic appeal that was mainly visual. He was a technically brilliant mimic and boasted more than 100 characterizations, with a repertoire ranging from Humphrey Bogart to Kermit the Frog.",
+    "At age 19 Carrey moved to Hollywood, where he acted in films and on television; he obtained dual citizenship to the United States in 2004. In 1983 he played a role in the Canadian television film Introducing…Janet. The following year he made his feature film debut in Finders Keepers, which was followed by a leading role in the film Once Bitten (1985). Carrey then played an intergalactic alien named Wiploc in the comedy Earth Girls Are Easy (1988). His first TV special, Jim Carrey: Unnatural Act (1991), received rave reviews and led to a regular role on the television sketch comedy series In Living Color. The show ended in 1994, and Carrey concentrated on his film career. He scored an immediate hit with Ace Ventura: Pet Detective and had continued box-office success with Dumb and Dumber and The Mask (all 1994). In the latter film Carrey played a timid bank clerk who becomes a hip wisecracking green-faced dandy when he dons a magical mask. His performance earned Carrey the first of several Golden Globe Award nominations. He subsequently starred in Ace Ventura: When Nature Calls (1995) and played the Riddler in Batman Forever (1995).",
+  ];
+
+  return {
+    getWords(textNumber) {
+      return words[textNumber];
+    },
+  };
+})();
